@@ -45,9 +45,6 @@ function createIssue() {
     body: document.getElementById("body").value
   };
   console.log("Inside createIssue function")
-  //let title = document.getElementById("title")
-  //let body = document.getElementById("body")
-   //debugger
 
   const url = `${baseURL}/repos/${owner}/javascript-fetch-lab-dc-web-career-010719/issues`
   //use fetch to fork it!
