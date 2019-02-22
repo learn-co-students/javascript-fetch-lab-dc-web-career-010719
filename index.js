@@ -85,20 +85,6 @@ function forkRepo() {
 }
 
 function getToken() {
-  //change to your token to run in browser, but set
-  //back to '' before committing so all tests pass
+  //token revoked
   
 }
-
-
-//const postData = {
-//  body: 'Great stuff'
-//};
-// 
-////fetch('https://github.com/canikwe/relationship_tracker/commits/master/comments', {
-//  method: 'POST',
-//  body: JSON.stringify(postData),
-//  headers: {
-//    Authorization: `token ${token}`
-//  }
-//}).then(res => console.log(res))
